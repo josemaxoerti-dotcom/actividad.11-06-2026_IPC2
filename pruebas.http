@@ -1,0 +1,63 @@
+### ApiEstructurasDemo - Pruebas de Endpoints
+### Usa este archivo con la extensión "REST Client" de VS Code
+### o úsalo como referencia para Postman/Bruno
+
+@baseUrl = http://localhost:5000
+
+-----------------------------------------------
+ PRUEBA 1: GET - Obtener todos los nodos
+ Resultado esperado: 200 OK con los 2 nodos iniciales
+-----------------------------------------------------
+GET {{baseUrl}}/api/nodos
+Accept: application/json
+
+
+
+-------------------------------------------------
+### PRUEBA 2: POST - Insertar un nuevo nodo
+### Resultado esperado: 201 Created con el nodo creado
+----------------------------------------------------
+POST {{baseUrl}}/api/nodos
+Content-Type: application/json
+
+{
+  "id": 15,
+  "valor": "Nuevo Nodo Derecho"
+}
+
+
+
+ ---------------------------------------------
+### PRUEBA 3: GET después del POST
+### Resultado esperado: 200 OK con los 3 nodos
+-------------------------------------------
+GET {{baseUrl}}/api/nodos
+Accept: application/json
+
+###
+
+ ------------------------------------------------
+### PRUEBA EXTRA: POST con datos inválidos
+### Resultado esperado: 400 Bad Request
+------------------------------------------------
+POST {{baseUrl}}/api/nodos
+Content-Type: application/json
+
+{
+  "id": 0,
+  "valor": ""
+}
+
+###
+
+--------------------------------------------------
+### PRUEBA EXTRA: POST con Id duplicado
+### Resultado esperado: 409 Conflict
+---------------------------------------------------
+POST {{baseUrl}}/api/nodos
+Content-Type: application/json
+
+{
+  "id": 10,
+  "valor": "Intento duplicado"
+}

@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "GQu6QNQuyb4=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "filePath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.WindowsDesktop.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "filePath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "filePath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Host.win-x64. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "filePath": "C:\\Users\\Usuario\\Downloads\\ApiEstructurasDemo\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
